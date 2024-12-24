@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "google_jobs",
+  "info": {
+    "singularName": "google-job",
+    "pluralName": "google-jobs",
+    "displayName": "google-jobs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "job_url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "min_amount": {
+      "type": "string"
+    },
+    "max_amount": {
+      "type": "string"
+    },
+    "job_type": {
+      "type": "string"
+    }
+  }
+}

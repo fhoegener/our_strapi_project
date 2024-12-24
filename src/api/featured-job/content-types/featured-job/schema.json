@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_jobs",
+  "info": {
+    "singularName": "featured-job",
+    "pluralName": "featured-jobs",
+    "displayName": "featured-jobs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company_name": {
+      "type": "string"
+    },
+    "company_logo": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "location": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "number_of_applicant": {
+      "type": "string"
+    },
+    "flexibility": {
+      "type": "string"
+    },
+    "experience_level": {
+      "type": "string"
+    },
+    "contract_type": {
+      "type": "string"
+    }
+  }
+}
